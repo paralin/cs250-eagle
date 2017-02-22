@@ -432,18 +432,18 @@
 <pin name="CLK0" x="0" y="0" direction="in"/>
 <pin name="K1" x="0" y="-2.54" direction="in"/>
 <pin name="J1" x="0" y="-5.08" direction="in"/>
-<pin name="PR1" x="0" y="-7.62" direction="in"/>
+<pin name="PR1'" x="0" y="-7.62" direction="in"/>
 <pin name="Q1" x="0" y="-10.16" direction="out"/>
 <pin name="Q1'" x="0" y="-12.7" direction="out"/>
 <pin name="Q0'" x="0" y="-15.24" direction="out"/>
 <pin name="GND" x="0" y="-17.78" direction="pwr"/>
 <pin name="Q0" x="33.02" y="-17.78" direction="out" rot="R180"/>
-<pin name="PR" x="33.02" y="-15.24" direction="in" rot="R180"/>
+<pin name="PR0'" x="33.02" y="-15.24" direction="in" rot="R180"/>
 <pin name="J0" x="33.02" y="-12.7" direction="in" rot="R180"/>
 <pin name="K0" x="33.02" y="-10.16" direction="in" rot="R180"/>
 <pin name="CLK" x="33.02" y="-7.62" direction="in" rot="R180"/>
-<pin name="CLK1" x="33.02" y="-5.08" direction="in" rot="R180"/>
-<pin name="CLR" x="33.02" y="-2.54" direction="in" rot="R180"/>
+<pin name="CLR1'" x="33.02" y="-5.08" direction="in" rot="R180"/>
+<pin name="CLR0'" x="33.02" y="-2.54" direction="in" rot="R180"/>
 <pin name="VCC" x="33.02" y="0" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-22.86" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-22.86" x2="25.4" y2="-22.86" width="0.1524" layer="94"/>
@@ -608,15 +608,15 @@
 <connects>
 <connect gate="A" pin="CLK" pad="13"/>
 <connect gate="A" pin="CLK0" pad="1"/>
-<connect gate="A" pin="CLK1" pad="14"/>
-<connect gate="A" pin="CLR" pad="15"/>
+<connect gate="A" pin="CLR0'" pad="15"/>
+<connect gate="A" pin="CLR1'" pad="14"/>
 <connect gate="A" pin="GND" pad="8"/>
 <connect gate="A" pin="J0" pad="11"/>
 <connect gate="A" pin="J1" pad="3"/>
 <connect gate="A" pin="K0" pad="12"/>
 <connect gate="A" pin="K1" pad="2"/>
-<connect gate="A" pin="PR" pad="10"/>
-<connect gate="A" pin="PR1" pad="4"/>
+<connect gate="A" pin="PR0'" pad="10"/>
+<connect gate="A" pin="PR1'" pad="4"/>
 <connect gate="A" pin="Q0" pad="9"/>
 <connect gate="A" pin="Q0'" pad="7"/>
 <connect gate="A" pin="Q1" pad="5"/>
